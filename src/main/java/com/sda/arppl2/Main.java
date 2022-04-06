@@ -4,25 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-       Osoba osoba1 = new Osoba();
-       this osoba1.imie = "Marian";
-       this osoba1.nazwisko = "Kowalski";
+       Osoba osoba1 = new Osoba("Marian", "Kowalski");
 
-       Osoba osoba2 = new Osoba();
-       this osoba2.imie = "Adrian";
-       this osoba2.nazwisko = "Roztocki";
+       Osoba osoba2 = new Osoba("Adrian", "Roztocki");
 
-       Osoba osoba3 = Osoba;
-       this osoba3.imie = "Hugo";
-       this osoba3.nazwisko = "Kołłątaj";
+       Osoba osoba3 = new Osoba("Hugo", "Kołłątaj");
 
-       Osoba osoba4 = Osoba;
-       this osoba4.imie = "Alicja";
-       this osoba4.nazwisko "Wkrainieczarów";
+       Osoba osoba4 = new Osoba("Alicja", "Wkrainieczarów");
 
-       Osoba osoba5 = Osoba;
-       this osoba5.imie = "Dagmara";
-       this osoba5.nazwisko = "Drakula";
+       Osoba osoba5 = new Osoba("Dagmara", "Drakula");
+
 
 
 
